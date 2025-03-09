@@ -2,7 +2,7 @@ import {
   fetchImages,
   resetPage,
   getCurrentPage,
-} from './src/main/webapp/js/pixabay-api.js';
+} from './src/js/pixabay-api.js';
 import {
   clearGallery,
   showImages,
@@ -11,7 +11,7 @@ import {
   hideLoadingIndicator,
   toggleLoadMoreButton,
   showEndOfResultsMessage,
-} from './src/main/webapp/js/render-functions.js';
+} from './src/js/render-functions.js';
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
